@@ -1,2 +1,24 @@
+input[type="text"] {
+  display: block;
+  width: 25%; }
+
+textarea {
+  width: 25%;
+  height: 100px;
+  margin-top: 18px; }
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Arial, sans-serif; }
+
 body {
   background-color: #777; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+article {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top; }

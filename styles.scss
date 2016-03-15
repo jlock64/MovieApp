@@ -1,3 +1,21 @@
+@import "_form.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Arial, sans-serif;
+}
+
 body {
   background-color: #777;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+article {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
 }
