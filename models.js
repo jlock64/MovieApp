@@ -1,5 +1,5 @@
-var movieModel = Backbone.Model.extend({
+var MovieModel = Backbone.Model.extend({
   initialize: function() {
-    console.log("New book created!");
+    // console.log("New book created!");
   }
 })
