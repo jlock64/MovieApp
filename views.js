@@ -14,7 +14,7 @@ var FormView = Backbone.View.extend ({
       director: this.$el.find('.director').val(),
       desc: this.$el.find('.desc').val(),
       stars: this.$el.find('.stars').val(),
-      img: this.$el.find('img').val(),
+      img: this.$el.find('image').val(),
     });
     this.$el.find('input').val('');
     this.$el.find('textarea').val('');
@@ -53,7 +53,7 @@ var MovieView = Backbone.View.extend({
       director: this.$el.find('.directorEdit').val(),
       stars: this.$el.find('.starsEdit').val(),
       desc: this.$el.find('.descEdit').val(),
-      img: this.$el.find('.imgEdit').val()
+      img: this.$el.find('.imageEdit').val()
     });
     console.log('this.model');
   },

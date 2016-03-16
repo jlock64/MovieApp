@@ -1,8 +1,8 @@
 var templates = {};
 templates.movie = [
   // "<article data-id='<%= cid %>'>",
-  "<h1> <%= title %> </h1>",
   "<img src='<%= img %>'/>",
+  "<h1> <%= title %> </h1>",
   "<p> <%= desc %> </p>",
   "<b><h3>Directors: </h3></b><p> <%= director %> </p>",
   "<b><h3>Stars: </h3></b><p> <%= stars %> </p>",
@@ -26,11 +26,11 @@ templates.editMovie = [
 templates.addMovie = [
   // '<form class="createForm">',
     '<h2>Create your own movie submission here</h2>',
-    'Title:<input class="title" type="text" value="">',
-    'Director:<input class="director" type="text" value="">',
-    'Stars:<input class="stars" type="text" value="">',
-    'Add Image:<input class="image" type="text" value="">',
-    '<textarea class="desc" name="esc" placeholder=""></textarea>',
-    '<input type="button" class="submitButton" name="name" value="">',
+    '<input class="title" type="text" placeholder="Title">',
+    '<input class="director" type="text" placeholder="Director">',
+    '<input class="stars" type="text" placeholder="Stars">',
+    '<input class="image" type="text" placeholder="Add Image">',
+    '<textarea class="desc" name="esc" placeholder="Enter your description here"></textarea>',
+    '<input type="button" class="submitButton" name="name" value="Update">',
   // '</form>'
 ].join('');
